@@ -33,3 +33,15 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+#center{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
