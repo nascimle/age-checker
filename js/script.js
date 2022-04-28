@@ -44,6 +44,7 @@ button.addEventListener('click',function(){
         img.src = "./img/mulher-idosa.jpg";
     }
 
-    
+    let element = document.getElementById("user-image");
+    element.classList.toggle("hidden");
 
 })
